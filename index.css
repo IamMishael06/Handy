@@ -39,6 +39,5 @@
     width: 58vw;
     border-radius: 0px !important;
     flex-wrap: wrap;
-    box-shadow: 2px 2px 2px 2px #00000029 !important;
-    
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);    
 }
