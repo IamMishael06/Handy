@@ -16,15 +16,15 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary navigation-bar mx-auto my-0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/images/handy_logo-e5d858d96595ec001c5268a2d7a0f91800da2c7c2f963a5307154917289c347a.svg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="icon navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="this.classList.toggle('active')">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="links navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-between">
                 <div class="d-flex justify-content-between first-link">
                     <li class="nav-item">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            All services
                         </a>
                         <ul class="drop dropdown-menu rounded-0">
                             <div class="drop-menu d-flex mx-auto my-0 justify-content-between flex-row flex-wrap">
@@ -124,18 +124,121 @@
             <h1>The easy, reliable way to take care of your home.</h1>
         </div>
         <!-- services sec -->
-        <div class="services d-flex justify-content-between mt-5">
+        <div class="services d-flex flex-wrap justify-content-between mt-5">
             <div class="card-one d-flex">
                 <div class="card-color-home bg-success d-flex align-items-center justify-content-center">
                     <i class="fa-solid fa-spray-can-sparkles"></i>
                 </div>
-                <div class="card-text-home">
+                <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
                     <h1>Home Cleaning</h1>
                 </div>
             </div>
+            <!-- all services -->
+            <div class="card-one d-flex">
+                <div class="card-color-services d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-wrench"></i>
+                </div>
+                <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
+                    <h1>All Services</h1>
+                </div>
+            </div>
+            <!-- all services -->
+
+             <!-- the home shop -->
+             <div class="card-one d-flex">
+                <div class="card-color-home bg-info d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
+                    <h1>The Home Shop</h1>
+                </div>
+            </div>
+             <!-- the home shop -->
           </div>
       </section>
       <!-- HERO ENDS -->
+      <main class="card-area">
+        <section class="manual-work my-0 mx-auto">
+            <div>
+                <h1 >Cleaning & Handyman Tasks</h1>
+                <p class="mt-4">Instantly book highly rated pros for cleaning and handyman tasks at an upfront price.</p>
+            </div>
+            <div class="card-sec d-flex justify-content-between align-items-center mt-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="/images/homecleaner_image-fedc37eea62743f6da98a145bfc573e8e827c5e68ff13b935857c43fb7d97f37.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title"><a href="" class="d-flex  align-items-center"><h1>Home Cleaning</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="card" style="width: 16rem;">
+                    <img src="/images/furniture_assembly_img-016e6663e768c07e91185c00ca737ee7292df33f15715f5e63d131155683a29b.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title"><a href="" class="d-flex  align-items-center"><h1>Furniture Assembly</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                    </div>
+                  </div>
+
+                  <!-- 3rd card -->
+                  <div class="card" style="width: 16rem;">
+                    <img src="/images/tv_mounting_img-2c5add457f614fa27db18be961ac40cbe722e124bfb3e49c1105343adfab473b.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="" class="d-flex  align-items-center"><h1>Tv Mounting</h1><i class="fa-solid fa-chevron-right ps-2"></i></a></h5>
+                    </div>
+                  </div>
+
+                  <!-- 4th card -->
+                  <div class="card" style="width: 16rem;">
+                    <img src="/images/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="" class="d-flex align-items-center"><h1 class=""> Wall Hanging</h1><i class="fa-solid fa-chevron-right ps-2"></i></a></h5>
+                       
+                  </div>
+                  </div>
+
+                </div>
+        </section>
+
+        <section class="furniture  mx-auto">
+            <div>
+                <h1 >Cleaning & Handyman Tasks</h1>
+                <p class="mt-4">Instantly book highly rated pros for cleaning and handyman tasks at an upfront price.</p>
+            </div>
+            <div class="card-sec d-flex justify-content-between align-items-center mt-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="/images/homecleaner_image-fedc37eea62743f6da98a145bfc573e8e827c5e68ff13b935857c43fb7d97f37.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title"><a href="" class="d-flex  align-items-center"><h1>Home Cleaning</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="card" style="width: 16rem;">
+                    <img src="/images/furniture_assembly_img-016e6663e768c07e91185c00ca737ee7292df33f15715f5e63d131155683a29b.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title"><a href="" class="d-flex  align-items-center"><h1>Furniture Assembly</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                    </div>
+                  </div>
+
+                  <!-- 3rd card -->
+                  <div class="card" style="width: 16rem;">
+                    <img src="/images/tv_mounting_img-2c5add457f614fa27db18be961ac40cbe722e124bfb3e49c1105343adfab473b.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="" class="d-flex  align-items-center"><h1>Tv Mounting</h1><i class="fa-solid fa-chevron-right ps-2"></i></a></h5>
+                    </div>
+                  </div>
+
+                  <!-- 4th card -->
+                  <div class="card" style="width: 16rem;">
+                    <img src="/images/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="" class="d-flex align-items-center"><h1> Wall Hanging</h1><i class="fa-solid fa-chevron-right ps-2"></i></a></h5>
+                       
+                  </div>
+                  </div>
+        </section>
+
+      </main>
      
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
