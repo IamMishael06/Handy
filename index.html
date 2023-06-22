@@ -12,7 +12,8 @@
     <script src="https://kit.fontawesome.com/f0bfa4a648.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navigation-bar">
+    <!-- NAVIGATION STARTS -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navigation-bar mx-auto my-0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="/images/handy_logo-e5d858d96595ec001c5268a2d7a0f91800da2c7c2f963a5307154917289c347a.svg" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,79 +21,85 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="links navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-between">
-                <div class="d-flex first-link">
-                    <li class="nav-item dropdown">
+                <div class="d-flex justify-content-between first-link">
+                    <li class="nav-item">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          All Services
+                            Dropdown
                         </a>
-                        <ul class="drop-menu dropdown-menu d-flex">
-                            <div class="mx-3">
-                                <th>Cleaning</th>
-                                <li class="dropdown-item"><a href="#">Home Cleaning</a></li>
-                                <li class="dropdown-item"><a href="#">Move Out Cleaning</a></li>
-                                <li class="dropdown-item"><a href="#">Office Cleaning</a></li>
-                                <li class="dropdown-item"><a href="#">Deep Cleaning</a></li>
+                        <ul class="drop dropdown-menu rounded-0">
+                            <div class="drop-menu d-flex mx-auto my-0 justify-content-between flex-row flex-wrap">
+                                <div class="items">
+                                    <th>Cleaning</th>
+                                    <li class="dropdown-item"><a href="#">Home Cleaning</a></li>
+                                    <li class="dropdown-item"><a href="#">Move Out Cleaning</a></li>
+                                    <li class="dropdown-item"><a href="#">Office Cleaning</a></li>
+                                    <li class="dropdown-item"><a href="#">Deep Cleaning</a></li>
+                                    <div class="items">
+                                        <th>Installation</th>
+                                        <li class="dropdown-item"><a href="#">TV Mounting</a></li>
+                                        <li class="dropdown-item"><a href="#">Picture or Shelf Hanging</a></li>
+                                        <li class="dropdown-item"><a href="#">Light Fixtures</a></li>
+                                        <li class="dropdown-item"><a href="#">Ceiling Fans</a></li>
+                                    </div>
+                                </div>
+                                <div class="items">
+                                    <th>Handyman</th>
+                                    <li class="dropdown-item"><a href="#">Furniture Assembly</a></li>
+                                    <li class="dropdown-item"><a href="#">General Handyman</a></li>
+                                    <li class="dropdown-item"><a href="#">General Plumbing</a></li>
+                                    <li class="dropdown-item"><a href="#">Faucets</a></li>
+                                    <li class="dropdown-item"><a href="#">Toilets</a></li>
+                                    <li class="dropdown-item"><a href="#">General Electric</a></li>
+                                    <li class="dropdown-item"><a href="#">Outlets and Switches</a></li>
+                                    <li class="dropdown-item"><a href="#">Moving Help</a></li>
+                                </div>
+                               
+                                <!-- <div>
+                                    <th>Outdoor</th>
+                                    <li class="dropdown-item"><a href="#">Lawn Care</a></li>
+                                    <li class="dropdown-item"><a href="#">Gutters and Downspouts</a></li>
+                                    <li class="dropdown-item"><a href="#">Tree Removal</a></li>
+                                    <li class="dropdown-item"><a href="#">Tree Trimming</a></li>
+                                    <li class="dropdown-item"><a href="#">Wood Fence Installation</a></li>
+                                    <li class="dropdown-item"><a href="#">Deck and Porch Repairs</a></li>
+                                    <li class="dropdown-item"><a href="#">Deck Installation</a></li>
+                                    <li class="dropdown-item"><a href="#">Exterior Painting</a></li>
+                                    <li class="dropdown-item"><a href="#">Exterior Surfaces</a></li>
+    
+                                </div>
+                                <div>
+                                    <th>Home Renovations</th>
+                                    <li class="dropdown-item"><a href="#">Remodel a Bathroom</a></li>
+                                    <li class="dropdown-item"><a href="#">Remodel a Kitchen</a></li>
+                                    <li class="dropdown-item"><a href="#">Remodel a Basement</a></li>
+                                    <li class="dropdown-item"><a href="#">Major Home Renovations</a></li>
+                                    <li class="dropdown-item"><a href="#">Refinish Wood Flooring</a></li>
+                                    <li class="dropdown-item"><a href="#">Install Roofing</a></li>
+                                    <li class="dropdown-item"><a href="#">Repair Roofing</a></li>
+                                    <li class="dropdown-item"><a href="#">Install New Windows</a></li>
+                                    <li class="dropdown-item"><a href="#">Interior Painting</a></li>
+                                    <li class="dropdown-item"><a href="#">Window Treatments</a></li>
+                                </div> -->
                             </div>
-                            <div>
-                                <th>Handyman</th>
-                                <li class="dropdown-item"><a href="#">Furniture Assembly</a></li>
-                                <li class="dropdown-item"><a href="#">General Handyman</a></li>
-                                <li class="dropdown-item"><a href="#">General Plumbing</a></li>
-                                <li class="dropdown-item"><a href="#">Faucets</a></li>
-                                <li class="dropdown-item"><a href="#">Toilets</a></li>
-                                <li class="dropdown-item"><a href="#">General Electric</a></li>
-                                <li class="dropdown-item"><a href="#">Outlets and Switches</a></li>
-                                <li class="dropdown-item"><a href="#">Moving Help</a></li>
-                            </div>
-                            <div>
-                                <th>Outdoor</th>
-                                <li class="dropdown-item"><a href="#">Lawn Care</a></li>
-                                <li class="dropdown-item"><a href="#">Gutters and Downspouts</a></li>
-                                <li class="dropdown-item"><a href="#">Tree Removal</a></li>
-                                <li class="dropdown-item"><a href="#">Tree Trimming</a></li>
-                                <li class="dropdown-item"><a href="#">Wood Fence Installation</a></li>
-                                <li class="dropdown-item"><a href="#">Deck and Porch Repairs</a></li>
-                                <li class="dropdown-item"><a href="#">Deck Installation</a></li>
-                                <li class="dropdown-item"><a href="#">Exterior Painting</a></li>
-                                <li class="dropdown-item"><a href="#">Exterior Surfaces</a></li>
-
-                            </div>
-                            <div>
-                                <th>Home Renovations</th>
-                                <li class="dropdown-item"><a href="#">Remodel a Bathroom</a></li>
-                                <li class="dropdown-item"><a href="#">Remodel a Kitchen</a></li>
-                                <li class="dropdown-item"><a href="#">Remodel a Basement</a></li>
-                                <li class="dropdown-item"><a href="#">Major Home Renovations</a></li>
-                                <li class="dropdown-item"><a href="#">Refinish Wood Flooring</a></li>
-                                <li class="dropdown-item"><a href="#">Install Roofing</a></li>
-                                <li class="dropdown-item"><a href="#">Repair Roofing</a></li>
-                                <li class="dropdown-item"><a href="#">Install New Windows</a></li>
-                                <li class="dropdown-item"><a href="#">Interior Painting</a></li>
-                                <li class="dropdown-item"><a href="#">Window Treatments</a></li>
-                            </div>
-                            <div class="mx-3">
-                                <th>Installation</th>
-                                <li class="dropdown-item"><a href="#">TV Mounting</a></li>
-                                <li class="dropdown-item"><a href="#">Picture or Shelf Hanging</a></li>
-                                <li class="dropdown-item"><a href="#">Light Fixtures</a></li>
-                                <li class="dropdown-item"><a href="#">Ceiling Fans</a></li>
-                            </div>
-
+                           <button class="button btn btn-lg btn-info text-light mx-auto my-0 d-flex justify-content-between">See All services</button>
+                        </ul>
+                    </li>
                             
                     
                           <!-- <li><a href="#">Action</a></li>
                           <li><a class="dropdown-item" href="#">Another action</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                        </ul>
+                      
                         <li class="nav-item">
                             <a class="nav-link" href="#">Shop</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                           </li>
+                 
                 </div>
-                <div class="d-flex sec-link">
+                <div class="d-flex justify-content-between sec-link">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Become a Pro</a>
                       </li>
@@ -110,6 +117,26 @@
           </div>
         </div>
       </nav>
+      <!-- NAVIGATION ENDS -->
+      <!-- HERO STARTS -->
+      <section class="hero my-0 mx-auto mt-5">
+        <div class="hero-text">
+            <h1>The easy, reliable way to take care of your home.</h1>
+        </div>
+        <!-- services sec -->
+        <div class="services d-flex justify-content-between mt-5">
+            <div class="card-one d-flex">
+                <div class="card-color-home bg-success d-flex align-items-center justify-content-center">
+                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                </div>
+                <div class="card-text-home">
+                    <h1>Home Cleaning</h1>
+                </div>
+            </div>
+          </div>
+      </section>
+      <!-- HERO ENDS -->
+     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

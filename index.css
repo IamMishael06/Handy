@@ -7,7 +7,6 @@
 .navbar{
     width: 80vw;
     /* border: 1px solid red; */
-    margin: 0 auto;
 }
 .navbar-brand img{
     width: 80%;
@@ -26,18 +25,67 @@
 .first-link{
     /* border: 1px solid blue; */
     width: 30%;
-    display: flex;
-    justify-content: space-between;
 }
 .sec-link{
     /* border: 1px solid blue; */
     width: 30%;
-    display: flex;
-    justify-content: space-between;
 }
 .drop-menu{
-    width: 58vw;
-    border-radius: 0px !important;
-    flex-wrap: wrap;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);    
+   width: 90%;
+}
+.drop{
+width: 35vw;
+ box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);    
+
+}
+.button{
+    font-family: 'lato'; 
+    font-size: 16px !important;
+}
+.items{
+    color: #0a6da2;
+    font-weight: 600;
+    font-family: 'lato';
+    margin-top: 2vh;
+    font-size: 16px;
+}
+.items a{
+    text-decoration: none;
+    color: #7f8d98 !important;
+    margin-top: 2vh;
+    font-size: 14px;
+}
+/* Navigation ends */
+.hero{
+    width: 80%;
+    margin-top: 2.5vh !important;
+    
+}
+.hero-text h1{
+    font-family: 'poppins';
+    color: #000000be;
+    font-weight: 500;
+}
+.card-one{
+    width:26%;
+    height: 10vh;
+    box-shadow: 4px 4px 7px #00000041;
+}
+.card-color-home{
+    width: 40%;
+}
+.card-color-home i{
+    color: #ffffff;
+}
+.card-text-home h1{
+    font-family: 'lato';
+    font-size: 20px;
+    font-weight: 300 !important;
+}
+.card-text-home{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
