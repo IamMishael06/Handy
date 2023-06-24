@@ -10,8 +10,10 @@ body{
     width: 100%;
 }
 .navbar{
-    width: 80vw;
+    width: 75vw;
     /* border: 1px solid red; */
+    height: 10vh;
+
 }
 .navbar-brand img{
     width: 80%;
@@ -20,6 +22,7 @@ body{
     color: #000;
     font-family: 'lato';
     font-weight: 300;
+    font-size: 15px;
 }
 .links li a:hover{
     color: #17cfee;
@@ -61,20 +64,23 @@ width: 35vw;
     font-size: 14px;
 }
 /* Navigation ends */
+
+
 .hero{
-    width: 80%;
+    width: 75%;
     margin-top: 2.5vh !important;
     
 }
 .hero-text h1{
-    font-family: 'poppins';
+    font-family: 'lato';
     color: #000000be;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 30px;
 }
 .card-one{
-    width:28%;
-    height: 10vh;
-    box-shadow: 2px 2px 4px #00000041;
+    width:30%;
+    height: 8vh;
+    box-shadow: 0px 0px 6px #00000041;
 
 }
 .card-color-home{
@@ -87,15 +93,26 @@ width: 35vw;
 .card-text-home h1{
     font-family: 'lato';
     font-size: 15px;
-    font-weight: 300 !important;
+    /* border: 1px solid red; */
+    font-weight: 200 !important;
 }
 .card-text-home{
     width: 50%;
+    /* border: 1px solid blue; */
+    margin-left: 30px;
 }
+/* services section */
 .services{
-    width: 80%;
+    width: 75%;
     flex-wrap: wrap !important;
     height: 30vh;
+}
+.card-area{
+    width: 75%;
+}
+.card{
+    box-shadow: 0.5px 2px 5px #00000041;
+    width: 16rem;
 }
 .card-color-services{
     background: #41d1b8;
@@ -106,18 +123,18 @@ width: 35vw;
     font-size: 30px;
 }
 .card-title{
-    width: fit-content;
-    margin: 0 auto;
-    border: 1px solid red;
+    width: 90%;
+    margin: auto;
     text-align: center;
+    align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
 }
 .card-title h1{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 300;
     font-family: 'poppins';
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .card-title a{
     text-decoration: none;
@@ -131,11 +148,106 @@ width: 35vw;
     font-size: 15px;
 }
 .manual-work{
-    width: 80%;
+    margin-top: -10vh;
+}
+.manual-text h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.manual-text p{
+    font-size: 15px;
 }
 .furniture{
+    margin-top: 10vh !important;
+}
+.furniture-text p{
+    font-size: 15px;
+}
+.furniture-text h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+
+
+/* Guarantee sec */
+.guarantee{
+    height: 100vh;
+    margin-top: 10vh;
+}
+.title{
+    background: #f4f4f4;
+    height: 20%;
+}
+.title p{
+    color: #464646;
+}
+.head{
     width: 80%;
-    margin-top: 15vh !important;
+    text-align: center;
+    font-family: 'lato';
+}
+/* .head-one{
+   border: 1px solid red;   
+} */
+.head-one h1{
+    color: #434343;
+    font-size: 30px;
+    margin-left: 10px;
+    letter-spacing: .5px;
+}
+.head-one i{
+    color: #234a84;
+    font-size: 40px;
+}
+.guarantee-items{
+    background: #234a84;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40% !important;
+    height: 80vh;
+}
+.guarantee-text-image img{
+    width: 100px;
+    border-radius: 50%;
+}
+.guarantee-text{
+    width: 55%;
+    color: #ffffff;
+    font-family: 'lato';
+  
+}
+.guarantee-text h1{
+    font-size: 35px;
+    letter-spacing: .5px;
+}
+.guarantee-img img{
+    height: 80vh;
+}
+/* Get the app  */
+.get-app-overview{
+    width: 80%;
+    height: 100%;
+}
+.image-part{
+    width: 30% !important;
+}
+.get-app-text{
+    font-family: 'lato';
+    letter-spacing: .5px;
+}
+.get-app-text h1{
+    line-height: 2em;
+}
+.get-app-text p{
+    line-height: 1.8em;
+}
+.buttons{
+    border: 1px solid red;
 }
 @media screen and (max-width:425px){
     body{
@@ -147,15 +259,18 @@ width: 35vw;
         flex-wrap: wrap;
         box-shadow: 1px 1px 1px #00000041;
     }
+    .hero-text{
+        width: 90%;
+        margin: 0 auto;
+    }
     .services{
         width: 100vw;
     }
     .hero{
         width: 100%;
     }
-    .hero-text{
+    .card-area{
         width: 90%;
-        margin: 0 auto;
     }
     .hero-text h1{
         font-size: 20px;
@@ -166,4 +281,25 @@ width: 35vw;
     .card-color-services{
         width: 20%;
     }
-}
+    .manual-work{
+        margin-top: 5vh;
+    }
+     .card{
+        width: 40% !important;
+        margin-top: 20px;
+        border-radius: 0px !important;
+
+    }
+    .card-sec{
+        flex-wrap: wrap;
+    }
+    .card-title{
+        width: 100%;
+    }
+    .card-title h1{
+        font-size: 8px;
+    }
+    .card-title a i{
+        font-size: 10px;
+    }
+} 
