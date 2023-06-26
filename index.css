@@ -240,14 +240,116 @@ width: 35vw;
     font-family: 'lato';
     letter-spacing: .5px;
 }
-.get-app-text h1{
+.texts{
     line-height: 2em;
+    font-size: 30px;
 }
-.get-app-text p{
+.texts-two{
     line-height: 1.8em;
 }
+.buttons button{
+    height: 70px;
+    width: 200px;
+    border-radius: 10px !important;
+}
+.buttons a{
+    text-decoration: none;
+}
 .buttons{
-    border: 1px solid red;
+    width: 90%;
+
+}
+.apple{
+    font-size: 40px;
+}
+.google{
+    font-size: 40px;
+}
+.download-app p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.download-app h6{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'lato';
+}
+/* HOME PRODUCt */
+.products{
+    height: 80vh;
+
+}
+
+.product-collection{
+    background: url(/images/room.png);
+    height: 90%;
+
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.products-text{
+    width: 30%;
+    padding-top: 160px !important;
+    margin-left: 200px !important;
+    font-family: 'lato';
+}
+.products-text h1{
+    font-size: 30px;
+
+}
+.products-text p{
+    line-height: 1.8em;
+}
+.products-text button{
+    margin-top: 4vh;
+    background: #234a84;
+    font-family: 'lato';
+    font-weight: 300 !important;
+    font-size: 17px;
+    height: 50px    ;
+}
+.products-text button i{
+    font-size: 17px;
+}
+/* HIRE ME */
+.hire-me{
+    font-family: 'lato';
+    height: 80vh;
+}
+.hire-me-text p{
+    width: 80%;
+}
+.hire-me-text h1{
+    word-spacing: .5px;
+}
+.hire-me-text button{
+    font-family: 'lato';
+    width: 50%;
+    height: 7vh;
+}
+.partners-sec{
+    background: #f4f4f4;
+    width: 100vw;
+}
+.partner{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'lato';
+}
+.partners-logo img{
+    width: 30%;
+    margin-top: 5vh;
+}
+.partner button{
+    font-family: 'lato';
+    margin-top: 5vh;
+    width: 25%;
+    height: 10%;
 }
 @media screen and (max-width:425px){
     body{
