@@ -14,411 +14,606 @@
 </head>
 
 <body>
-    <!-- NAVIGATION STARTS -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navigation-bar mx-auto my-0">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img
+    <div class="omo">
+        <nav class="hamburger-nav mx-auto d-flex">
+            <main class="d-flex justify-content-between align-items-center">
+                <div class="nav-logo">
+                    <img
                     src="/images/handy_logo-e5d858d96595ec001c5268a2d7a0f91800da2c7c2f963a5307154917289c347a.svg"
-                    alt=""></a>
-            <button class="icon navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation" onclick="this.classList.toggle('active')">
-                <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="links navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-between">
-                    <div class="d-flex justify-content-between first-link">
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                All services
-                            </a>
-                            <ul class="drop dropdown-menu rounded-0">
-                                <div class="drop-menu d-flex mx-auto my-0 justify-content-between flex-row flex-wrap">
-                                    <div class="items">
-                                        <th>Cleaning</th>
-                                        <li class="dropdown-item"><a href="#">Home Cleaning</a></li>
-                                        <li class="dropdown-item"><a href="#">Move Out Cleaning</a></li>
-                                        <li class="dropdown-item"><a href="#">Office Cleaning</a></li>
-                                        <li class="dropdown-item"><a href="#">Deep Cleaning</a></li>
-                                        <div class="items">
-                                            <th>Installation</th>
-                                            <li class="dropdown-item"><a href="#">TV Mounting</a></li>
-                                            <li class="dropdown-item"><a href="#">Picture or Shelf Hanging</a></li>
-                                            <li class="dropdown-item"><a href="#">Light Fixtures</a></li>
-                                            <li class="dropdown-item"><a href="#">Ceiling Fans</a></li>
-                                        </div>
-                                    </div>
-                                    <div class="items">
-                                        <th>Handyman</th>
-                                        <li class="dropdown-item"><a href="#">Furniture Assembly</a></li>
-                                        <li class="dropdown-item"><a href="#">General Handyman</a></li>
-                                        <li class="dropdown-item"><a href="#">General Plumbing</a></li>
-                                        <li class="dropdown-item"><a href="#">Faucets</a></li>
-                                        <li class="dropdown-item"><a href="#">Toilets</a></li>
-                                        <li class="dropdown-item"><a href="#">General Electric</a></li>
-                                        <li class="dropdown-item"><a href="#">Outlets and Switches</a></li>
-                                        <li class="dropdown-item"><a href="#">Moving Help</a></li>
-                                    </div>
-
-                                    <!-- <div>
-                                    <th>Outdoor</th>
-                                    <li class="dropdown-item"><a href="#">Lawn Care</a></li>
-                                    <li class="dropdown-item"><a href="#">Gutters and Downspouts</a></li>
-                                    <li class="dropdown-item"><a href="#">Tree Removal</a></li>
-                                    <li class="dropdown-item"><a href="#">Tree Trimming</a></li>
-                                    <li class="dropdown-item"><a href="#">Wood Fence Installation</a></li>
-                                    <li class="dropdown-item"><a href="#">Deck and Porch Repairs</a></li>
-                                    <li class="dropdown-item"><a href="#">Deck Installation</a></li>
-                                    <li class="dropdown-item"><a href="#">Exterior Painting</a></li>
-                                    <li class="dropdown-item"><a href="#">Exterior Surfaces</a></li>
+                    alt="">
+                </div>
+                <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars-staggered" onclick="showMenu()"></i>
+                </div>
+            </main>
     
+            <div class="nav">
+                <div class="nav-item-body">
+                    <ul class="nav-items">
+                        <li><a href="#">Log in</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Become a Professional</a></li>
+                        <hr>
+                        <li><a href="#">All Services</a></li>
+                        <li><a href="#">Service by Category</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <hr>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+           
+        </nav>
+ <!-- NAVIGATION STARTS -->
+ <nav class="navbar navbar-expand-lg bg-body-tertiary navigation-bar mx-auto my-0">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img
+                src="/images/handy_logo-e5d858d96595ec001c5268a2d7a0f91800da2c7c2f963a5307154917289c347a.svg"
+                alt=""></a>
+        <button class="icon navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation" onclick="this.classList.toggle('active')">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="links navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-between">
+                <div class="d-flex justify-content-between first-link">
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All services
+                        </a>
+                        <ul class="drop dropdown-menu rounded-0">
+                            <div class="drop-menu d-flex mx-auto my-0 justify-content-between flex-row flex-wrap">
+                                <div class="items">
+                                    <th>Cleaning</th>
+                                    <li class="dropdown-item"><a href="#">Home Cleaning</a></li>
+                                    <li class="dropdown-item"><a href="#">Move Out Cleaning</a></li>
+                                    <li class="dropdown-item"><a href="#">Office Cleaning</a></li>
+                                    <li class="dropdown-item"><a href="#">Deep Cleaning</a></li>
+                                    <div class="items">
+                                        <th>Installation</th>
+                                        <li class="dropdown-item"><a href="#">TV Mounting</a></li>
+                                        <li class="dropdown-item"><a href="#">Picture or Shelf Hanging</a></li>
+                                        <li class="dropdown-item"><a href="#">Light Fixtures</a></li>
+                                        <li class="dropdown-item"><a href="#">Ceiling Fans</a></li>
+                                    </div>
                                 </div>
-                                <div>
-                                    <th>Home Renovations</th>
-                                    <li class="dropdown-item"><a href="#">Remodel a Bathroom</a></li>
-                                    <li class="dropdown-item"><a href="#">Remodel a Kitchen</a></li>
-                                    <li class="dropdown-item"><a href="#">Remodel a Basement</a></li>
-                                    <li class="dropdown-item"><a href="#">Major Home Renovations</a></li>
-                                    <li class="dropdown-item"><a href="#">Refinish Wood Flooring</a></li>
-                                    <li class="dropdown-item"><a href="#">Install Roofing</a></li>
-                                    <li class="dropdown-item"><a href="#">Repair Roofing</a></li>
-                                    <li class="dropdown-item"><a href="#">Install New Windows</a></li>
-                                    <li class="dropdown-item"><a href="#">Interior Painting</a></li>
-                                    <li class="dropdown-item"><a href="#">Window Treatments</a></li>
-                                </div> -->
+                                <div class="items">
+                                    <th>Handyman</th>
+                                    <li class="dropdown-item"><a href="#">Furniture Assembly</a></li>
+                                    <li class="dropdown-item"><a href="#">General Handyman</a></li>
+                                    <li class="dropdown-item"><a href="#">General Plumbing</a></li>
+                                    <li class="dropdown-item"><a href="#">Faucets</a></li>
+                                    <li class="dropdown-item"><a href="#">Toilets</a></li>
+                                    <li class="dropdown-item"><a href="#">General Electric</a></li>
+                                    <li class="dropdown-item"><a href="#">Outlets and Switches</a></li>
+                                    <li class="dropdown-item"><a href="#">Moving Help</a></li>
                                 </div>
-                                <button
-                                    class="button btn btn-lg btn-info text-light mx-auto my-0 d-flex justify-content-between">See
-                                    All services</button>
-                            </ul>
-                        </li>
 
+                                <!-- <div>
+                                <th>Outdoor</th>
+                                <li class="dropdown-item"><a href="#">Lawn Care</a></li>
+                                <li class="dropdown-item"><a href="#">Gutters and Downspouts</a></li>
+                                <li class="dropdown-item"><a href="#">Tree Removal</a></li>
+                                <li class="dropdown-item"><a href="#">Tree Trimming</a></li>
+                                <li class="dropdown-item"><a href="#">Wood Fence Installation</a></li>
+                                <li class="dropdown-item"><a href="#">Deck and Porch Repairs</a></li>
+                                <li class="dropdown-item"><a href="#">Deck Installation</a></li>
+                                <li class="dropdown-item"><a href="#">Exterior Painting</a></li>
+                                <li class="dropdown-item"><a href="#">Exterior Surfaces</a></li>
 
-                        <!-- <li><a href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-
-                    </div>
-                    <div class="d-flex justify-content-between sec-link">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Become a Pro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Help</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Log In</a>
-                        </li>
-                    </div>
-
-
+                            </div>
+                            <div>
+                                <th>Home Renovations</th>
+                                <li class="dropdown-item"><a href="#">Remodel a Bathroom</a></li>
+                                <li class="dropdown-item"><a href="#">Remodel a Kitchen</a></li>
+                                <li class="dropdown-item"><a href="#">Remodel a Basement</a></li>
+                                <li class="dropdown-item"><a href="#">Major Home Renovations</a></li>
+                                <li class="dropdown-item"><a href="#">Refinish Wood Flooring</a></li>
+                                <li class="dropdown-item"><a href="#">Install Roofing</a></li>
+                                <li class="dropdown-item"><a href="#">Repair Roofing</a></li>
+                                <li class="dropdown-item"><a href="#">Install New Windows</a></li>
+                                <li class="dropdown-item"><a href="#">Interior Painting</a></li>
+                                <li class="dropdown-item"><a href="#">Window Treatments</a></li>
+                            </div> -->
+                            </div>
+                            <button
+                                class="button btn btn-lg btn-info text-light mx-auto my-0 d-flex justify-content-between">See
+                                All services</button>
+                        </ul>
                     </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- NAVIGATION ENDS -->
-    <!-- HERO STARTS -->
-    <section class="hero my-0 mx-auto mt-5">
-        <div class="hero-text">
-            <h1>The easy, reliable way to take care of your home.</h1>
-        </div>
-        <!-- services sec -->
-        <div class="services d-flex flex-wrap justify-content-between mt-5">
-            <div class="card-one green d-flex">
-                <div class="card-color-home green-fi d-flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-spray-can-sparkles"></i>
-                </div>
-                <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
-                    <h1>Home Cleaning</h1>
-                </div>
-            </div>
-            <!-- all services -->
-            <div class="card-one bright-blue d-flex">
-                <div class="card-color-services d-flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-wrench"></i>
-                </div>
-                <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
-                    <h1>All Services</h1>
-                </div>
-            </div>
-            <!-- all services -->
 
-            <!-- the home shop -->
-            <div class="card-one blue d-flex">
-                <div class="card-color-home  blue-fi d-flex align-items-center justify-content-center">
-                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    <!-- <li><a href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+
                 </div>
-                <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
-                    <h1>The Home Shop</h1>
+                <div class="d-flex justify-content-between sec-link">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become a Pro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log In</a>
+                    </li>
+                </div>
+
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- NAVIGATION ENDS -->
+<!-- HERO STARTS -->
+<section class="hero my-0 mx-auto mt-5">
+    <div class="hero-text">
+        <h1>The easy, reliable way to take care of your home.</h1>
+    </div>
+    <!-- services sec -->
+    <div class="services d-flex flex-wrap justify-content-between mt-5">
+        <div class="card-one green d-flex">
+            <div class="card-color-home green-fi d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-spray-can-sparkles"></i>
+            </div>
+            <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
+                <h1>Home Cleaning</h1>
+            </div>
+        </div>
+        <!-- all services -->
+        <div class="card-one bright-blue d-flex">
+            <div class="card-color-services d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-wrench"></i>
+            </div>
+            <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
+                <h1>All Services</h1>
+            </div>
+        </div>
+        <!-- all services -->
+
+        <!-- the home shop -->
+        <div class="card-one blue d-flex">
+            <div class="card-color-home  blue-fi d-flex align-items-center justify-content-center">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card-text-home d-flex flex-col justify-content-center align-items-center">
+                <h1>The Home Shop</h1>
+            </div>
+        </div>
+        <!-- the home shop -->
+    </div>
+</section>
+<!-- HERO ENDS -->
+<main class="card-area my-0 mx-auto">
+    <section class="manual-work">
+        <div class="manual-text">
+            <h1>Cleaning & Handyman Tasks</h1>
+            <p class="mt-4">Instantly book highly rated pros for cleaning and handyman tasks at an upfront price.
+            </p>
+        </div>
+        <div class="card-sec d-flex justify-content-between align-items-center mt-4">
+            <div class="card">
+                <img src="/images/homecleaner_image-fedc37eea62743f6da98a145bfc573e8e827c5e68ff13b935857c43fb7d97f37.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="" class="d-flex">
+                            <h1>Home Cleaning</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
                 </div>
             </div>
-            <!-- the home shop -->
-        </div>
+
+            <!-- 2nd card -->
+            <div class=" card">
+                    <img src="/images/furniture_assembly_img-016e6663e768c07e91185c00ca737ee7292df33f15715f5e63d131155683a29b.png" class="card-img-top" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title"><a href="" class="d-flex">
+                        <h1>Furniture Assembly</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                    </div>
+             </div>
+
+              <!-- 3rd card -->
+              <div class=" card">
+                                                <img src="/images/tv_mounting_img-2c5add457f614fa27db18be961ac40cbe722e124bfb3e49c1105343adfab473b.png"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title"><a href="" class="d-flex">
+                                                            <h1>Tv Mounting</h1><i
+                                                                class="fa-solid fa-chevron-right ps-2"></i>
+                                                        </a></h5>
+                                                </div>
+                                </div>
+
+                                <!-- 4th card -->
+                                <div class="card">
+                                    <img src="/images/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3.png"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="" class="d-flex">
+                                                <h1 class=""> Wall Hanging</h1><i
+                                                    class="fa-solid fa-chevron-right ps-2"></i>
+                                            </a></h5>
+
+                                    </div>
+                                </div>
+
+                </div>
     </section>
-    <!-- HERO ENDS -->
-    <main class="card-area my-0 mx-auto">
-        <section class="manual-work">
-            <div class="manual-text">
-                <h1>Cleaning & Handyman Tasks</h1>
-                <p class="mt-4">Instantly book highly rated pros for cleaning and handyman tasks at an upfront price.
-                </p>
+
+    <section class="furniture  mx-auto">
+        <div class="furniture-text">
+            <h1>Home Furniture with Assembly Included</h1>
+            <p class="mt-4">
+                Everything you buy through Handy comes with free delivery and professional installation included.
+            </p>
+        </div>
+        <div class="card-sec d-flex justify-content-between mt-4">
+            <div class="card">
+                <img src="/images/bed-284f2c4d6ebae30fd58ddc1db0d7d368fdd255c7b17c25ab803d4148981fcbd7.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="" class="d-flex">
+                            <h1>Home Cleaning</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                </div>
             </div>
-            <div class="card-sec d-flex justify-content-between align-items-center mt-4">
-                <div class="card">
-                    <img src="/images/homecleaner_image-fedc37eea62743f6da98a145bfc573e8e827c5e68ff13b935857c43fb7d97f37.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="" class="d-flex">
-                                <h1>Home Cleaning</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+
+            <!-- 2nd card -->
+            <div class=" card" style="width: 16rem;">
+                                <img src="/images/desk-d03412ba1aca673b783f990e4ac4d0913b062734c3d7793f64b9e0a455c85592.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body ">
+                                    <h5 class="card-title"><a href="" class="d-flex">
+                                            <h1>Furniture Assembly</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
+                </div>
+              </div>
+
+              <!-- 3rd card -->
+              <div class=" card" style="width: 16rem;">
+                                                <img src="images/dresser-c3fb649ec7738568873176b7f2eb6c98127cadede9cf3843025d501b58db0035.png"
+                                                    class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                    <h5 class="card-title"><a href="" class="d-flex">
+                                                            <h1>Tv Mounting</h1><i
+                                                                class="fa-solid fa-chevron-right ps-2"></i>
+                                                        </a></h5>
+                                                </div>
+                                </div>
+
+                                <!-- 4th card -->
+                                <div class="card" style="width: 16rem;">
+                                    <img src="/images/chandelier-6b5aeb0944d09c5746fdfa3585ce531aabebffe6a6d7e26bbb4e00c8cecd401e.png"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="" class="d-flex">
+                                                <h1> Wall Hanging</h1><i class="fa-solid fa-chevron-right ps-2"></i>
+                                            </a></h5>
+
+                                    </div>
+                                </div>
+    </section>
+</main>
+
+<!-- service cards ends -->
+
+
+<!-- Guarantees -->
+<section class="guarantee  vw-100">
+    <div class="title">
+        <div class="head my-0 mx-auto pt-3">
+            <div class="head-one d-flex align-items-center justify-content-center my-0 mx-auto">
+                <div><img src="/images/lock.svg" alt=""></div>
+                <div>
+                    <h1>Vetted, Screened Professionals</h1>
+                </div>
+            </div>
+            <div>
+                <p>Cleaning and handyman tasks booked and is and paid for through Handy are performed by
+                    experienced, vetted providers who are highly rated by customers like you. <a href="#"
+                        class="text-info"> Learn more.</a></p>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <div class="row g-0">
+            <div class="guarantee-items col col-lg-6">
+                <div class="guarantee-text my-0 mx-auto">
+                    <div class="guarantee-text-image">
+                        <!-- <img src="/images/png-transparent-computer-icons-respect-symbol-others-hand-photography-logo-removebg-preview.png" alt=""> -->
+                        <img src="/images/handy-logo.svg" alt="">
                     </div>
+                    <h1>Your Happiness, Guaranteed</h1>
+                    <p>Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly
+                        customer service agents are available 24 hours a day, 7 days a week. The Handy Happiness
+                        Guarantee only applies when you book and pay for a service directly through the Handy
+                        platform.
+                        <a href="" class="text-light">Learn more.</a>
+                    </p>
                 </div>
 
-                <!-- 2nd card -->
-                <div class=" card">
-                                    <img src="/images/furniture_assembly_img-016e6663e768c07e91185c00ca737ee7292df33f15715f5e63d131155683a29b.png"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body ">
-                                        <h5 class="card-title"><a href="" class="d-flex">
-                                                <h1>Furniture Assembly</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
-                    </div>
-                  </div>
-
-                  <!-- 3rd card -->
-                  <div class=" card">
-                                                    <img src="/images/tv_mounting_img-2c5add457f614fa27db18be961ac40cbe722e124bfb3e49c1105343adfab473b.png"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title"><a href="" class="d-flex">
-                                                                <h1>Tv Mounting</h1><i
-                                                                    class="fa-solid fa-chevron-right ps-2"></i>
-                                                            </a></h5>
-                                                    </div>
-                                    </div>
-
-                                    <!-- 4th card -->
-                                    <div class="card">
-                                        <img src="/images/hanging_img-7ef860782e6ceac45cba539ce96088fdfcd229a340905f2f45c5f66518d7f4f3.png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title"><a href="" class="d-flex">
-                                                    <h1 class=""> Wall Hanging</h1><i
-                                                        class="fa-solid fa-chevron-right ps-2"></i>
-                                                </a></h5>
-
-                                        </div>
-                                    </div>
-
-                    </div>
-        </section>
-
-        <section class="furniture  mx-auto">
-            <div class="furniture-text">
-                <h1>Home Furniture with Assembly Included</h1>
-                <p class="mt-4">
-                    Everything you buy through Handy comes with free delivery and professional installation included.
-                </p>
             </div>
-            <div class="card-sec d-flex justify-content-between mt-4">
-                <div class="card">
-                    <img src="/images/bed-284f2c4d6ebae30fd58ddc1db0d7d368fdd255c7b17c25ab803d4148981fcbd7.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="" class="d-flex">
-                                <h1>Home Cleaning</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
-                    </div>
+            <div class="guarantee-img col col-lg-6">
+                <img src="/images/indoor-air-quality.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Get The app -->
+<section class="get-the-app vh-100 d-flex justify-content-center">
+    <div class="get-app-overview row mx-auto my-0 align-items-center justify-content-between">
+        <div class="text-part col col-lg-6">
+            <div class="get-app-text">
+                <h1 class="texts">Get the Handy App</h1>
+                <p class="texts-two">Book and manage appointments, message your pro, view pro profiles and ratings,
+                    see real-time
+                    location of your pro and so much more.</p>
+                <div class="buttons d-flex align-items-center justify-content-between">
+                   <a href="">
+                    <button>
+                        <div>
+                            <img src="/images/app-store-badge-4a71a8c7f185bad9ad8653a3267dafec0a9a649da7d5764c582fec70b8dc9f45.svg"
+                                alt="">
+                        </div>
+                    </button>
+                   </a>
+                   <a href="">
+                    <button>
+                        <div>
+                            <img src="/images/google-bd91bfeb8c248aaac.png"
+                                alt="">
+                        </div>
+                    </button>
+                   </a>
+
                 </div>
+            </div>
+        </div>
+        <div class="image-part col col-lg-6">
+            <div class="get-app-img">
+                <img src="/images/download_app-ecc06ca796984c2e7686b7aaa9c7a060d53c1207018d247d7698a959d648096c (1).png"
+                    alt="">
+            </div>
+        </div>
+    </div>
+</section>
 
-                <!-- 2nd card -->
-                <div class=" card" style="width: 16rem;">
-                                    <img src="/images/desk-d03412ba1aca673b783f990e4ac4d0913b062734c3d7793f64b9e0a455c85592.png"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body ">
-                                        <h5 class="card-title"><a href="" class="d-flex">
-                                                <h1>Furniture Assembly</h1><i class="fa-solid fa-chevron-right ps-2""></i></a></h5>
-                    </div>
-                  </div>
+<!-- Home products -->
+<section class="products">
 
-                  <!-- 3rd card -->
-                  <div class=" card" style="width: 16rem;">
-                                                    <img src="images/dresser-c3fb649ec7738568873176b7f2eb6c98127cadede9cf3843025d501b58db0035.png"
-                                                        class="card-img-top" alt="...">
-                                                    <div class="card-body">
-                                                        <h5 class="card-title"><a href="" class="d-flex">
-                                                                <h1>Tv Mounting</h1><i
-                                                                    class="fa-solid fa-chevron-right ps-2"></i>
-                                                            </a></h5>
-                                                    </div>
-                                    </div>
+    <div class="product-collection">
+        <div class="products-collection-text">
+            <div class="products-text d-flex flex-column">
+                <h1>Shop for your Home with Handy</h1>
+                <p>Shop furniture, electronics, appliances, and more. Everything comes with expert installation by
+                    Handy.</p>
+                <button class="btn btn-lg w-75 text-light d-flex align-items-center justify-content-center">Shop All
+                    Home Products<i class="fa-solid fa-chevron-right ps-2"></i></button>
+            </div>
+        </div>
 
-                                    <!-- 4th card -->
-                                    <div class="card" style="width: 16rem;">
-                                        <img src="/images/chandelier-6b5aeb0944d09c5746fdfa3585ce531aabebffe6a6d7e26bbb4e00c8cecd401e.png"
-                                            class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title"><a href="" class="d-flex">
-                                                    <h1> Wall Hanging</h1><i class="fa-solid fa-chevron-right ps-2"></i>
-                                                </a></h5>
 
-                                        </div>
-                                    </div>
-        </section>
+    </div>
+
+</section>
+<!-- Hire me section -->
+<section class="hire-me d-flex align-items-center justify-content-between mx-auto w-75">
+    <div class="hire-me-text w-50 mx-auto">
+        <h1 class="fs-3">Are You a Five Star Pro?</h1>
+        <p class="mt-4 lh-base">From cleaners to handymen to smart home installers, Handy is always looking for
+            service professionals who are experts in their trade and provide great service to their customers. The
+            best home service professionals use Handy to find jobs with no lead fees and flexible scheduling.</p>
+        <button class="btn bg-info text-light">Become a Pro</button>
+    </div>
+    <div class="hire-me-pic">
+        <img src="/images/two people .png" alt="">
+    </div>
+</section>
+
+<!-- PARTNERS SECTION -->
+<section class="partners-sec">
+    <main class="partner w-75 mx-auto">
+        <div class="partner-text text-center">
+            <h1 class="fs-3">Our Partners</h1>
+            <p class="fs-5">Handy works with partners who want to provide their customers, tenants, or employees
+                easy access to quality home services at affordable prices.</p>
+        </div>
+        <div class="partners-logo d-flex flex-wrap align-items-center justify-content-center">
+            <img src="/images/wayfair_2x-ef915dd5b334d0fc46ca926a5cb741262335f725bd5643b3522f276e7d5a8084.png"
+                alt="">
+            <img src="/images/walmart_2x-8a6db194706379ebce4916d4aad8192d437de109903b5fa9da697a1d086a7848.png"
+                alt="">
+            <img src="/images/googlehome_2x-8c832ed9f499bce2b1a126469af62899f9a830c65f7dac6490d222ec62d4974f.png"
+                alt="">
+            <img src="/images/nest_2x-923a9e1e233ceb592ea124e3b7a7ea0fdc3b646d3ded505fae1f6f3e41ebd9e9.png" alt="">
+            <img src="/images/equity_2x-c325449d05716f8f9a7b801a38aca569550f55b9ae36c5d0f0d77e7871d091dd.png"
+                alt="">
+            <img src="/images/leesa_2x-f3bfe6cb59a126e8dd56060593dc74f4d5d48c3cad346004a01a31d1c901a131.png" alt="">
+        </div>
+        <button class="btn btn-info text-light">Partner With Handy</button>
+    </main>
+</section>
+
+<section class="search d-flex align-items-center justify-content-center">
+    <main class="search-result">
+        <h1 class="mt-2">Popular Searches</h1>
+        <div class="d-flex places justify-content-between">
+            <div>
+                <p><a href="#">Cleaning Services DC</a></p>
+                <p><a href="#">San Antonio Maid Service</a></p>
+                <p><a href="#">Maid Service Los Angeles</a></p>
+                <p><a href="#">Maid Service NYC</a></p>
+                <p><a href="#">Chicago Maids</a></p>
+                <p><a href="#">House Cleaning Service Houston</a></p>
+                <p><a href="#">Cleaning Services Las Vegas</a></p>
+                <p><a href="#">Maid Service Seattle</a></p>
+                <p><a href="#">Cleaning Service Miami</a></p>
+                <p><a href="#">Cleaning Service LA</a></p>
+            </div>
+            <div class="lh-sm">
+                <p><a href="#">Houston Move Out Cleaning</a></p>
+                <p><a href="#">Chicago Cleaning Service</a></p>
+                <p><a href="#">San Diego Cleaning Service</a></p>
+                <p><a href="#">Boston Cleaning Service</a></p>
+                <p><a href="#">Seattle Cleaning Service</a></p>
+                <p><a href="#">Cleaning Service</a></p>
+                <p><a href="#">Philadelphia Cleaning Service</a></p>
+                <p><a href="#">Pittsburgh Cleaning Service</a></p>
+                <p><a href="#">San Jose Cleaning Service</a></p>
+                <p><a href="#">Los Angeles Housekeeping</a></p>
+            </div>
+            <div>
+                <p><a href="#">Chicago Apartment Cleaning</a></p>
+                <p><a href="#">House Cleaning Service Chicago</a></p>
+                <p><a href="#">Las Vegas Maids</a></p>
+                <p><a href="#">Seattle House Cleaning Service</a></p>
+                <p><a href="#">Phoenix House Cleaning Service</a></p>
+                <p><a href="#">Phoenix Cleaning Service</a></p>
+                <p><a href="#">Tampa Cleaning Service</a></p>
+                <p><a href="#">Dallas House Cleaning</a></p>
+                <p><a href="#">House Cleaning Sacramento</a></p>
+                <p><a href="#">Housekeeping</a></p>
+            </div>
+        </div>
+
     </main>
 
-    <!-- service cards ends -->
+</section>
 
+<!-- FOOTER -->
+<section class="footer">
+    <main class="footer-items">
+        <!-- footer one -->
+        <div class="footer-one d-flex justify-content-between">
+            <div class="d-flex flex-column">
+                <a href="#">The Handy Happiness Guarantee</a>
+                <a href="#">About</a>
+                <a href="#">Press</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">Help</a>
+                <a href="#">Contact Us</a>
+                <div class="d-flex flex-column mt-4">
+                    <a href="#">Be a Professional</a>
+                    <a href="#">Retail Partnerships</a>
+                    <a href="#">Scholarship</a>
+                </div>
 
-    <!-- Guarantees -->
-    <section class="guarantee class=" vw-100"">
-        <div class="title">
-            <div class="head my-0 mx-auto pt-3">
-                <div class="head-one d-flex align-items-center justify-content-center my-0 mx-auto">
-                    <div><img src="/images/lock.svg" alt=""></div>
+            </div>
+            <div class="d-flex flex-column justify-content-between">
+                <h5>Locations</h5>
+                <a href="#">Boston</a>
+                <a href="#">Chicago</a>
+                <a href="#">London</a>
+                <a href="#">Los Angeles</a>
+                <a href="#">New York</a>
+                <a href="#">San Francisco</a>
+                <a href="#">Toronto</a>
+                <a href="#">Vancouver</a>
+                <a href="#">See all locations</a>
+                <select name="" id="" class="mt-2">
+                    <option value="United States">United States</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </div>
+            <div class="d-flex flex-column">
+                <h5>Popular Services</h5>
+                <a href="#">Cleaning</a>
+                <a href="#">Handyman</a>
+                <a href="#">Plumbing</a>
+                <a href="#">Electrical</a>
+                <a href="#">Moving Help</a>
+                <a href="#">Painting</a>
+                <a href="#">Furniture Assembly</a>
+                <a href="#">See all services</a>
+            </div>
+        </div>
+        <div class="footer-get-app d-flex mt-4 justify-content-between">
+            <a href="#">
+                <button class="apple-btn">
                     <div>
-                        <h1>Vetted, Screened Professionals</h1>
+                        <img src="/images/app-store-badge-4a71a8c7f185bad9ad8653a3267dafec0a9a649da7d5764c582fec70b8dc9f45.svg"
+                            alt="">
                     </div>
-                </div>
-                <div>
-                    <p>Cleaning and handyman tasks booked and is and paid for through Handy are performed by
-                        experienced, vetted providers who are highly rated by customers like you. <a href="#"
-                            class="text-info"> Learn more.</a></p>
-                </div>
-            </div>
-
-        </div>
-        <div>
-            <div class="row g-0">
-                <div class="guarantee-items col col-lg-6">
-                    <div class="guarantee-text my-0 mx-auto">
-                        <div class="guarantee-text-image">
-                            <!-- <img src="/images/png-transparent-computer-icons-respect-symbol-others-hand-photography-logo-removebg-preview.png" alt=""> -->
-                            <img src="/images/handy-logo.svg" alt="">
-                        </div>
-                        <h1>Your Happiness, Guaranteed</h1>
-                        <p>Your happiness is our goal. If you’re not happy, we’ll work to make it right. Our friendly
-                            customer service agents are available 24 hours a day, 7 days a week. The Handy Happiness
-                            Guarantee only applies when you book and pay for a service directly through the Handy
-                            platform.
-                            <a href="" class="text-light">Learn more.</a>
-                        </p>
+                </button>
+            </a>
+            <a href="#">
+                <button class="apple-btn">
+                    <div>
+                        <img src="/images/playstore.svg" alt="">
                     </div>
-
-                </div>
-                <div class="guarantee-img col col-lg-6">
-                    <img src="/images/indoor-air-quality.jpg" alt="">
-                </div>
-            </div>
+                </button>
+            </a>
         </div>
+        <!-- socials -->
+        <div class="socials d-flex justify-content-between mt-4">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-wikipedia-w"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-solid fa-globe"></i></a>
+        </div>
+        <hr class="mt-4">
+        <!-- other services -->
+        <div class="more-service">
+            <h4>Other Handy Services</h4>
+            <div class="other-services d-flex align-items-center justify-content-between">
+                <div class="d-flex flex-column">
+                    <a href="#">best maid services in london</a>
+                    <a href="#">chicago cleaning services</a>
+                    <a href="#">cleaning service in baltimore</a>
 
-    </section>
-
-    <!-- Get The app -->
-    <section class="get-the-app vh-100 d-flex justify-content-center">
-        <div class="get-app-overview row mx-auto my-0 align-items-center justify-content-between">
-            <div class="text-part col col-lg-6">
-                <div class="get-app-text">
-                    <h1 class="texts">Get the Handy App</h1>
-                    <p class="texts-two">Book and manage appointments, message your pro, view pro profiles and ratings, see real-time
-                        location of your pro and so much more.</p>
-                    <div class="buttons d-flex align-items-center justify-content-between">
-                        <a href="#">
-                            <button class="btn btn-lg btn-dark d-flex align-items-center justify-content-between">
-                                <div class="apple">
-                                    <i class="fa-brands fa-apple"></i>
-                                </div>
-                                <div class="download-app">
-                                    <p>Download on the</p>
-                                    <h6>App Store</h6>
-                                </div>
-                            </button>
-                        </a>
-
-                        <a href="#">
-                            <button class="btn btn-sm btn-dark d-flex  d-flex align-items-center justify-content-between">
-                                <div class="google">
-                                    <i class="fa-brands fa-google-play"></i>
-                                </div>
-                                <div class="download-app">
-                                    <p>Download on the</p>
-                                    <h6>Google Play</h6>
-                                </div>
-                            </button>
-                        </a>
-
-                    </div>
                 </div>
-            </div>
-            <div class="image-part col col-lg-6">
-                <div class="get-app-img">
-                    <img src="/images/download_app-ecc06ca796984c2e7686b7aaa9c7a060d53c1207018d247d7698a959d648096c (1).png"
-                        alt="">
+                <div class="d-flex flex-column">
+                    <a href="#">cleaning services in chicago</a>
+                    <a href="#">house cleaning service near me</a>
+                    <a href="#">house cleaning service tampa</a>
+                </div>
+                <div class="d-flex flex-column">
+                    <a href="#">housekeeping</a>
+                    <a href="#">move out cleaning service</a>
+                    <a href="#">nyc office cleaning services</a>
                 </div>
             </div>
         </div>
-    </section>
+        <hr class="mt-4">
+        <!-- footer end -->
+        <div class="footer-end d-flex justify-content-between">
+            <a href="#">Contact</a>
+            <a href="#">Privacy</a>
+            <a href="#">CA Pre-Collection Notice</a>
+            <a href="#">Do Not Sell or Share My Personal Information</a>
+            <a href="#">Cookies</a>
+            <a href="#">Terms</a>
+            <a href="#">Cancellation Policy</a>
+            <a href="#">Accessibility Tools</a>
+            <h6>
+                <p> 2023 Handy. All rights reserved.</p>
+                <p class="powered">Handy powered by Angi</p>
+            </h6>
 
-    <!-- Home products -->
-    <section class="products">
-
-        <div class="product-collection">
-            <div class="products-collection-text">
-                <div class="products-text d-flex flex-column">
-                    <h1>Shop for your Home with Handy</h1>
-                    <p>Shop furniture, electronics, appliances, and more. Everything comes with expert installation by Handy.</p>
-                    <button class="btn btn-lg w-75 text-light d-flex align-items-center justify-content-center">Shop All Home Products<i class="fa-solid fa-chevron-right ps-2"></i></button>
-                </div>
-            </div>
-           
-           
         </div>
-      
-    </section>
-<!-- Hire me section -->
-    <section class="hire-me d-flex align-items-center justify-content-between mx-auto w-75">
-        <div class="hire-me-text w-50 mx-auto">
-            <h1 class="fs-3">Are You a Five Star Pro?</h1>
-            <p class="mt-4 lh-base">From cleaners to handymen to smart home installers, Handy is always looking for service professionals who are experts in their trade and provide great service to their customers. The best home service professionals use Handy to find jobs with no lead fees and flexible scheduling.</p>
-            <button class="btn bg-info text-light">Become a Pro</button>
-        </div>
-        <div class="hire-me-pic">
-            <img src="/images/two people .png" alt="">
-        </div>
-    </section>
+    </main>
 
-    <!-- PARTNERS SECTION -->
-    <section class="partners-sec">
-        <main class="partner w-75 mx-auto">
-            <div class="partner-text text-center">
-                <h1 class="fs-3">Our Partners</h1>
-                <p class="fs-5">Handy works with partners who want to provide their customers, tenants, or employees easy access to quality home services at affordable prices.</p>
-            </div>
-            <div class="partners-logo d-flex flex-wrap align-items-center justify-content-center">
-                <img src="/images/wayfair_2x-ef915dd5b334d0fc46ca926a5cb741262335f725bd5643b3522f276e7d5a8084.png" alt="">
-                <img src="/images/walmart_2x-8a6db194706379ebce4916d4aad8192d437de109903b5fa9da697a1d086a7848.png" alt="">
-                <img src="/images/googlehome_2x-8c832ed9f499bce2b1a126469af62899f9a830c65f7dac6490d222ec62d4974f.png" alt="">
-                <img src="/images/nest_2x-923a9e1e233ceb592ea124e3b7a7ea0fdc3b646d3ded505fae1f6f3e41ebd9e9.png" alt="">
-                <img src="/images/equity_2x-c325449d05716f8f9a7b801a38aca569550f55b9ae36c5d0f0d77e7871d091dd.png" alt="">
-                <img src="/images/leesa_2x-f3bfe6cb59a126e8dd56060593dc74f4d5d48c3cad346004a01a31d1c901a131.png" alt="">
-            </div>
-            <button class="btn btn-info text-light">Partner With Handy</button>
-        </main>
-    </section>
-
-    <section class="search">
-        <main class="search-result">
-
-        </main>
-
-    </section>
+</section>
+<!-- FOOTER -->
+    </div>
+   
 
 
 
@@ -426,5 +621,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+        <script src="index.js"></script>
 </body>
+
 </html>

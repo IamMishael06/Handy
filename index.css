@@ -10,9 +10,10 @@ body{
     width: 100%;
 }
 .navbar{
-    width: 75vw;
+    width: 80vw;
     /* border: 1px solid red; */
     height: 10vh;
+    display: block;
 
 }
 .navbar-brand img{
@@ -67,7 +68,7 @@ width: 35vw;
 
 
 .hero{
-    width: 75%;
+    width: 80%;
     margin-top: 2.5vh !important;
     
 }
@@ -75,7 +76,8 @@ width: 35vw;
     font-family: 'lato';
     color: #000000be;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 5vh !important;
 }
 .card-one{
     width:30%;
@@ -103,7 +105,7 @@ width: 35vw;
 }
 /* services section */
 .services{
-    width: 75%;
+    width: 80%;
     flex-wrap: wrap !important;
     height: 30vh;
 }
@@ -147,7 +149,7 @@ width: 35vw;
     width: 30%;
 }
 .card-area{
-    width: 75%;
+    width: 80%;
 }
 .card{
     box-shadow: 0.5px 2px 5px #00000041;
@@ -267,6 +269,10 @@ width: 35vw;
 .guarantee-img img{
     height: 80vh;
 }
+
+
+
+
 /* Get the app  */
 .get-app-overview{
     width: 80%;
@@ -286,32 +292,12 @@ width: 35vw;
 .texts-two{
     line-height: 1.8em;
 }
-.buttons button{
-    height: 70px;
+.buttons button img{
     width: 200px;
-    border-radius: 10px !important;
 }
-.buttons a{
-    text-decoration: none;
-}
-.buttons{
-    width: 90%;
-
-}
-.apple{
-    font-size: 40px;
-}
-.google{
-    font-size: 40px;
-}
-.download-app p{
-    font-size: 14px;
-    margin-top: 10px;
-}
-.download-app h6{
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'lato';
+.buttons button {
+    border: none;
+    
 }
 /* HOME PRODUCt */
 .products{
@@ -390,22 +376,270 @@ width: 35vw;
     width: 25%;
     height: 10%;
 }
-@media screen and (max-width:425px){
+/* SEARCH */
+.search{
+    height: 70vh;
+}
+.search-result{
+    width: 80%;
+    height: 60%;
+    box-shadow: 0px 0px 10px 0.5px #00000041;
+} 
+.search-result h1{
+    font-size: 25px;
+    font-family: 'lato';
+    width: 95%;
+    margin-bottom: 4vh;
+    margin-left: 4vw;
+}
+.search-result p{
+    line-height: 0.6rem;
+    font-family: 'lato';
+}
+.places{
+    width: 80%;
+    margin-left: 4vw;
+}
+.search-result a{
+    color: #000;
+    text-decoration: none;
+}
+.search-result a:hover{
+    color: #000;
+}
+/* footer */
+.footer{
+    padding-top: 5vh;
+    height: 100vh;
+    background: #1d1d1d;
+}
+.footer-items{
+    /* border: 1px solid red; */
+    width: 90% !important;
+    margin-left: 10vw;
+    font-family: 'lato';
+}
+.footer-one{
+    width: 80%;
+}
+.footer-one a{
+    text-decoration: none;
+}
+.footer-one h5{
+    color: #606060;
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer-one div:nth-child(1) a{
+    color: #f2f2f2;
+}
+.footer-one div:nth-child(1) a::after{
+    content: "";
+    width: 100%;
+   display: none;
+    background: #f2f2f2;
+    height: 1px;
+}
+.footer-one div a{
+    color: #606060;
+    font-size: 14px;
+    line-height: 1.9em;
+    width: fit-content;
+}
+.footer-one div a::after{
+    content: "";
+    width: 100%;
+   display: none;
+    background: #606060;
+    margin: 0;
+    height: 1px;
+}
+.footer-one div a:hover::after{
+    display: block;
+}
+.footer-one div  select{
+    background: #1d1d1d;
+    border: 1px solid #f2f2f2;
+    color: #606060;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.apple-btn-text{
+    border: 1px solid red;
+}
+.apple-btn{
+    width: 160px;
+    height: 45px;
+    background: #000000;
+    border: 1px solid #565656;
+    border-radius: 5px;
+}
+.apple-btn img{
+    width:120px;
+}
+.footer-get-app{
+    width: 25.5%;
+    
+}
+.socials{
+    width: 26%;
+}
+.socials a{
+    text-decoration: none;
+    color: #888888;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #888888;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials a:hover{
+    color: #888888;
+}
+hr{
+    border: none;
+  height:  2px !important;
+  width: 90%; 
+  background-color: #fff !important;
+}
+ .other-services{
+    width: 80%;
+}
+.more-service h4{
+    color: #efefef;
+    font-size: 14px;
+}
+.other-services a{
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+    line-height: 2.15em;
+}
+.other-services a:hover{
+    color: #777777;
+}
+.other-services  a::after{
+    content: "";
+    width: 100%;
+   display: none;
+    background: #777777;
+    margin: 0;
+    height: 1px;
+}
+.other-services a:hover::after{
+    display: block;
+}
+.footer-end{
+    width: 90%;
+}
+.footer-end a{
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+}
+.footer-end h6{
+    width: 12%;
+    color: #f4f4f4;
+    font-size: 14px;
+    
+}
+.footer-end p{
+    font-weight: 500;
+    font-size: 14px !important;
+    margin: 0 !important;
+}
+.powered{
+    font-weight: 600 !important;
+}
+
+.hamburger-nav{
+    display: none !important;
+    margin-top: 2vh;
+    width: 90%;
+    font-family: 'lato';
+}
+
+.nav-logo img {
+    width: 70%;
+}
+ .hamburger-nav main{
+    width: 100vw;
+
+}
+.nav-items li {
+    line-height: 2.5em;
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #7b7b7b;
+}
+
+hr{
+    border: none;
+    height: 1px !important;
+    width: 90%;
+    background-color: #7b7b7b !important;
+}
+.nav-items-body{
+    position: absolute;       
+}
+.nav{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    position: fixed !important;
+    left: 80%;
+    transition: 0.5s;
+    z-index: 2;
+    border-left:2px solid #f1f1f1 !important;
+
+}
+.nav.active{
+    left: 20%;
+}
+.omo.active{
+    right: 80%;
+}
+
+@media screen and (max-width:425px) and (min-width:310px) {
     body{
-        overflow-x: hidden;
+        position: relative;
+        overflow-x: hidden !important;
+    }
+    .navbar {
+        display: none !important;
+    }
+    .omo{
+        height: 100vh;
         width: 100vw;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        transition: 0.6s;
     }
     .card-one{
-        width: 100%;
+        width: 100vw;
         flex-wrap: wrap;
-        box-shadow: 1px 1px 1px #00000041;
+        /* box-shadow: 1px 1px 1px #00000041; */
+        box-shadow: none;
+        border: 0.5px solid #00000041;
+        margin-left: auto;
+        margin-right: auto;
     }
     .hero-text{
-        width: 90%;
+        width: 95%;
+
         margin: 0 auto;
     }
     .services{
         width: 100vw;
+        height: fit-content;
     }
     .hero{
         width: 100%;
@@ -414,7 +648,8 @@ width: 35vw;
         width: 90%;
     }
     .hero-text h1{
-        font-size: 20px;
+        font-size: 30px;
+        line-height: 1.5em;
     }
     .card-color-home{
         width: 20%;
@@ -427,9 +662,8 @@ width: 35vw;
     }
      .card{
         width: 40% !important;
-        margin-top: 20px;
+        margin-top: 2vh;
         border-radius: 0px !important;
-
     }
     .card-sec{
         flex-wrap: wrap;
@@ -443,4 +677,33 @@ width: 35vw;
     .card-title a i{
         font-size: 10px;
     }
-} 
+
+    /* GUARANTESS */
+    .title{
+        padding: 4px 0;
+    }
+    .text-info{
+        text-decoration: none;
+    }
+    .guarantee-img {
+        display: none !important;
+    }
+    .guarantee {
+        height: auto;
+    }
+    .guarantee-items{
+        height: auto;
+    }
+    .head-one{
+        flex-direction: column;
+    }
+    .head-one h1{
+        font-size: 25px;
+    }
+    .head p{
+        font-size: 15px;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+
+}
