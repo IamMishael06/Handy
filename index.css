@@ -107,6 +107,45 @@ width: 35vw;
     flex-wrap: wrap !important;
     height: 30vh;
 }
+.bright-blue{
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.bright-blue:hover{
+    border: 1px solid #41d1b8;
+    color: #41d1b8;
+    transition: border-color 0.1s ;
+}
+.green{
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.green:hover{
+    border: 1px solid #8bc43e;
+    color: #8bc43e;
+    transition: border-color 0.1s ;
+}
+.green-fi{
+    background: #8bc43e;
+    width: 30%;
+}
+.green-fi i{
+    font-size: 30px;
+}
+.blue
+{
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+.blue:hover{
+    border: 1px solid #04cded;
+    color: #04cded;
+    transition: border-color 0.1s ;
+}
+.blue-fi{
+    background: #04cded;
+    width: 30%;
+}
 .card-area{
     width: 75%;
 }
