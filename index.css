@@ -340,10 +340,27 @@ width: 35vw;
     font-family: 'lato';
     font-weight: 300 !important;
     font-size: 17px;
-    height: 50px ;
+    align-items: center;
+    height: 50px;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+
 }
-.products-text button i{
+.products-collection-text button i{
     font-size: 17px;
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+.products-collection-text button span{
+    display: flex;
+    height: max-content !important;
+    align-items: center;
+    width: 80%;
+    justify-content: end;
 }
 /* HIRE ME */
 .hire-me{
@@ -805,7 +822,7 @@ hr{
     }
     .products-collection-text button{
         width: 70vw !important;
-        margin: 0 auto !important;        
+        margin: 0 auto !important;    
     }
     .products-collection-text{
         height: 90%;
@@ -814,11 +831,14 @@ hr{
         justify-content: space-between;
 
     }
-    .products-collection-text button p{
+    .products-collection-text button span{
         display: none;
     }
     .products-collection-text button::before{
         content: "Shop Now";
+        justify-content: center;
+        display: flex;
+        width: 100%;
     }
     .products-collection-text button i{
         display: none;
@@ -961,7 +981,7 @@ hr{
         width: 100%;
     }
 }
-@media screen and (max-width:1024px) and (min-width:768px) {
+@media screen and (max-width:1024px) and (min-width:426px) {
     body{
         position: relative;
         overflow-x: hidden !important;
@@ -984,4 +1004,201 @@ hr{
     .omo.active{
         right: 30%;
     }
+    .hero .services{
+        height: 30vh;
+        width: 100%;
+    }
+    .card-one{
+        height:15vh;
+        width: 30%;
+    }
+    .card-color-services{
+        width: 45%;
+    }
+    .card-color-home{
+        width: 45%;
+    }
+    .card-text-home{
+        text-align: center;
+        width: 50%;
+        margin: 0;
+    }
+    .hero-text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .services{
+        width: 100vw;
+        height: fit-content;
+    }
+    .hero{
+        width: 90%;
+    }
+    .card-area{
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+    .card{
+        width: 20% !important;
+        border-radius: 0px !important; 
+    }
+    .title{
+        padding: 4px 0;
+    }
+    .text-info{
+        text-decoration: none;
+    }
+    .guarantee {
+        height: auto;
+    }
+    .guarantee-items{
+        height: auto;
+    }
+    .head{
+        width: 90%;
+
+    }
+    .head-one{
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+    .head-one h1{
+        font-size: 24px !important;
+    }
+    .head p{
+        font-size: 12px;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    .guarantee-items{
+        height: 70vh;
+    }
+    .guarantee-text-image img{
+        width: 50px;
+    }.guarantee-text{
+        width: 90% !important;
+    }
+    .guarantee-text h1{
+        font-size: 25px;
+        letter-spacing: .5px;
+        line-height: 1.8rem;
+    }
+    .guarantee-text p{
+        font-size: 13px;
+        line-height: 1.4rem;
+        letter-spacing: .5px;
+    }
+    .head-one h1{
+        font-size: 30px;
+        
+    }
+    .guarantee-img{
+        width: 50%;
+    }
+    .guarantee-img img{
+        width: 100%;
+        height: 70vh;
+        aspect-ratio: 3/2;
+        object-position: .2px !important;
+        object-fit: cover;
+    }
+        .buttons{
+        flex-direction: column;
+        height: 22vh;
+        width: max-content !important;
+    }
+    .get-app-overview{
+        width: 95%;
+    }
+    .image-part{
+        width: 35% !important;
+    }
+    .get-app-img img{
+        width: 100% !important;
+    }
+    /* PRODUCTS */
+    .products{
+        height: 90vh;
+        width: 100%;
+    }
+
+    .products-text{
+        padding-top: 30px !important;
+        margin-left: 30px !important;
+        width:70%;
+    }
+    .products-text h1{
+        font-size: 25px;
+    }
+    .products-text p{
+        width: 60%;
+    }
+    .products-collection-text button{
+        width: 30vw !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        margin-left: 30px;  
+
+    }
+    .products-collection-text button i{
+        padding-left: 2px;
+    }
+    .hire-me{
+        height: auto !important;
+        width: 100vw !important;
+        flex-direction: row;
+    }
+    .hire-me-pic img{
+        width: 100%;
+        height: 70vh;
+        aspect-ratio: 3/2;
+        object-position: .2px !important;
+        object-fit: cover;
+    }
+    .hire-me-pic{
+        width: 45%;
+    }
+    .hire-me-text{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hire-me-text p{
+        width: 80%;
+        font-size: 14.5px;
+        text-align: left;
+        line-height: 1.4rem !important;
+    }
+    .partner button{
+        width: 50%;
+    }
+
+    /* SEARCH */
+    .search{
+        height: auto;
+        
+    }
+    .search-result{
+        height: 80%;
+        margin: 5% auto !important;
+    }
+    .places{
+        flex-direction: column;
+      
+    }.search-result p{
+        line-height: 0.2rem !important;
+    }
+    .places p a{
+        font-size: 14px;
+        line-height: 0.9rem;
+        
+    }
+    /* FOOTER */
+    .footer{
+        height: auto;
+        /* padding: 0 !important; */
+        padding-bottom: 5% !important;
+    }
+
 }
