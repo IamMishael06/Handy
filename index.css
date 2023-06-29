@@ -14,7 +14,6 @@ body{
     /* border: 1px solid red; */
     height: 10vh;
     display: block;
-
 }
 .navbar-brand img{
     width: 80%;
@@ -589,12 +588,15 @@ hr{
 }
 
 .hamburger-nav{
-    display: none !important;
     margin-top: 2vh;
     width: 90%;
     font-family: 'lato';
 }
-
+.hamburger-nav .nav-logo,
+.hamburger-nav main, .hamburger-nav .nav,
+.hamburger-nav .nav-items-body{
+    display: none !important;
+}
 .nav-logo img {
     width: 70%;
 }
@@ -633,13 +635,19 @@ hr{
 }
 
 
-@media screen and (max-width:425px) and (min-width:310px) {
+@media screen and (max-width:660px) and (min-width:310px) {
     body{
         position: relative;
         overflow-x: hidden !important;
     }
     .navbar {
         display: none !important;
+    }
+    .hamburger-nav .nav-logo,
+    .hamburger-nav main, .hamburger-nav .nav,
+    .hamburger-nav .nav-items-body{
+        display: block !important;
+        display: flex !important;
     }
     .nav.active{
         left: 20%;
@@ -692,6 +700,12 @@ hr{
     }
     .manual-work{
         margin-top: 5vh;
+    }
+    .manual-text h1::before{
+        content: "Book Services";
+    }
+    .manual-text .side-text{
+        display: none;
     }
      .card{
         width: 40% !important;
@@ -981,7 +995,7 @@ hr{
         width: 100%;
     }
 }
-@media screen and (max-width:1024px) and (min-width:426px) {
+@media screen and (max-width:1000px) and (min-width:661px) {
     body{
         position: relative;
         overflow-x: hidden !important;
@@ -1186,7 +1200,8 @@ hr{
     .places{
         flex-direction: column;
       
-    }.search-result p{
+    }
+    .search-result p{
         line-height: 0.2rem !important;
     }
     .places p a{
@@ -1200,5 +1215,221 @@ hr{
         /* padding: 0 !important; */
         padding-bottom: 5% !important;
     }
+    .footer-items{
+         margin-left: 0 !important;
+         margin: 0 auto !important;
+    }
+    .footer-one{
+        width: 100%;
+        padding: 0 !important;
+    }
+    .footer-get-app{
+        width: 57%;
+    }
+    .socials{
+        width: 60%;
 
+    }
+    .other-services{
+        width: 100%;
+    }
+    .end{
+        margin: 0 auto !important;
+        width: 90%;
+        height: 1.5px;
+       
+    }
+    .footer-end{
+        width: 90vw !important;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 2vh;
+    }
+    .footer-end a{
+        width: fit-content;
+        height: fit-content;   
+        text-align: left;
+    }
+    .footer-end h6{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 3vh;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:1024px) and (min-width:1001px) {
+    body{
+        position: relative;
+        overflow-x: hidden !important;
+    }
+    .navbar{
+        width: 90%;
+    }
+    .hamburger-nav .nav-logo,
+    .hamburger-nav main, .hamburger-nav .nav,
+    .hamburger-nav .nav-items-body{
+        display: none !important;
+    }
+    .hero .services{
+        height: 30vh;
+        width: 100%;
+    }
+    .card-one{
+        height:15vh;
+        width: 30%;
+    }
+    .card-color-services{
+        width: 45%;
+    }
+    .card-color-home{
+        width: 45%;
+    }
+    .card-text-home{
+        text-align: center;
+        width: 50%;
+        margin: 0;
+    }
+    .hero-text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .services{
+        width: 100vw;
+        height: fit-content;
+    }
+    .hero{
+        width: 90%;
+    }
+    .card-area{
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+    .card{
+        width: 20% !important;
+        border-radius: 0px !important; 
+    }
+    .buttons{
+        width: 100% !important;
+    }    
+    .hire-me-pic{
+        width: 45%;
+    }
+    .hire-me-pic img{
+        width: 100%;
+        height: 60vh;
+        aspect-ratio: 3/2;
+        object-position: .2px !important;
+        object-fit: cover;
+    }
+
+    .products{
+        height: 90vh;
+        width: 100%;
+    }
+
+    .products-text{
+        width:70%;
+    }
+    .products-text h1{
+        font-size: 25px;
+    }
+    .products-text p{
+        width: 60%;
+    }
+    .products-collection-text button{
+        width: 25vw !important;
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+
+    }
+    .products-collection-text button i{
+        padding-left: 2px;
+    }
+    .search{
+        height: auto;
+        margin: 5% auto !important;
+      }
+    .places{
+        height: 60vh;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .search-result p{
+        line-height: 0.9rem !important;
+    }
+    .footer{
+        height: auto;
+        /* padding: 0 !important; */
+    }
+}
+@media screen and (min-width:1440px) {
+    .footer{
+        height: auto;
+        /* padding: 0 !important; */
+        padding-bottom: 5% !important;
+    }
+    .search{
+        height: auto;
+        margin: 5% auto !important;
+      }
+    .places{
+        height: 60vh;
+        width: 90%;
+        justify-content: space-between;
+    }
+    .search-result p{
+        line-height: 0.9rem !important;
+    }
+    .guarantee-img{
+        width: 100%;
+        height: 70vh;
+        aspect-ratio: 3/2;
+        object-position: .2px !important;
+        object-fit: cover;
+   
+    }
+    .hero .services{
+        height: 30vh;
+        width: 100%;
+    }
+    .card-one{
+        height:15vh;
+        width: 30%;
+    }
+    .card-color-services{
+        width: 30%;
+    }
+    .card-color-home{
+        width: 30%;
+    }
+    .card-text-home{
+        text-align: center;
+        width: 50%;
+        margin: 0;
+    }
+    .hero-text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .services{
+        width: 100vw;
+        height: fit-content;
+    }
+    .hero{
+        width: 90%;
+    }
+    .card-area{
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+    .card{
+        width: 20% !important;
+        border-radius: 0px !important; 
+    }
+    .navbar{
+        width: 90%;
+    }
+    
 }
